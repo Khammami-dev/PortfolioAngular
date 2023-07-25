@@ -3,13 +3,13 @@
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas:
-      "menu WelcomePage WelcomePage"
-      "menu WelcomePage WelcomePage"
-      "menu WelcomePage WelcomePage";
+    width: 100%;
+    height: 100%;
   }
   
-  .WelcomePage { grid-area: WelcomePage; }
+  .home { grid-area: 1 / 1 / 4 / 4; }
   
-  .menu { grid-area: menu; }
+  .menu { grid-area: 1 / 1 / 4 / 2; }
+  
+  .welcomePage { grid-area: 1 / 2 / 4 / 4; }
   

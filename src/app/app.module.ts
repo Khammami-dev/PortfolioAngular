@@ -7,6 +7,7 @@ import { FirstComponent } from './first/first.component';
 import { HomeComponent } from './home/home.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { MenuComponent } from './menu/menu.component';
+import { TypeWriterComponent } from './type-writer/type-writer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MenuComponent } from './menu/menu.component';
     FirstComponent,
     HomeComponent,
     WelcomePageComponent,
-    MenuComponent
+    MenuComponent,
+    TypeWriterComponent
   ],
   imports: [
     BrowserModule,

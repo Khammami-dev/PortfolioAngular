@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./welcome-page.component.css']
 })
 export class WelcomePageComponent {
+  show=false;
+  ChangeStatus(){
+    this.show= !this.show;
+
+  }
 
 }
