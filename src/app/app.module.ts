@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { MenuComponent } from './menu/menu.component';
 import { TypeWriterComponent } from './type-writer/type-writer.component';
+import { FormsModule } from '@angular/forms';
+import { FilsComponent } from './fils/fils.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { TypeWriterComponent } from './type-writer/type-writer.component';
     HomeComponent,
     WelcomePageComponent,
     MenuComponent,
-    TypeWriterComponent
+    TypeWriterComponent,
+    FilsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
